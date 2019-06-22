@@ -1,0 +1,26 @@
+
+.start-divider-create,.start-divider-join {
+    position: relative;
+}
+
+.start-divider-create::before {
+    content: "Create a Room";
+    position: absolute;
+    top: -24px;
+    background-color: #FFFFFF;
+    left: 33%;
+    padding: 6px;
+}
+
+.start-divider-join::before {
+    content: "Join a Room";
+    position: absolute;
+    top: -24px;
+    background-color: #FFFFFF;
+    left: 33%;
+    padding: 6px;
+}
+
+.signup-card {
+    
+}
